@@ -33,15 +33,14 @@ type Props = { onNext: () => void }
 export default function GettingStarted ({ onNext }: Props) {
   return (
     <>
-      <h2 class='page-title'>Welcome, adventurer...</h2>
+      <h2 class='page-title'>Welcome,</h2>
       <p class='page-paragraph'>
-        This tool will walk you through the steps required to get started in building a Discord bot, and gain
-        the <i>Active Developer</i> badge on your profile.
+        This tool will help you get the <i>Active Developer Badge</i> without much trouble.
       </p>
       <p class='page-paragraph'>
-        No prior programming knowledge is required, you simply need to follow the steps!
+        You don't need to know nothing about coding. Follow the steps.
       </p>
-      <button onClick={onNext}>Get started!</button>
+      <button onClick={onNext}>Start!</button>
     </>
   )
 }
