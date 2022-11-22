@@ -55,8 +55,8 @@ export default function App ({ children }: Props) {
         </div>
         <div class='footer-legal'>
           <div>
-            Copyright &copy; DikaN.
-            <Link href='https://discord.gg/discord-developers'>Discord Developers'</Link> Discord server.
+            Copyright &copy; DikaN. 
+             <Link href='https://discord.gg/discord-developers'>Discord Developers'</Link> Discord server.
           </div>
         </div>
       </footer>
