@@ -56,7 +56,7 @@ export default function SetInteraction ({ token, onNext, onPrev }: Props) {
         to your application's settings, and set the "Interactions Endpoint URL" to the following:
       </p>
       <p class='page-paragraph'>
-        <code>https://disc-active-dev.cynthia.dev/i/{publicKey}</code>
+        <code>https://activedev.whyufuck.me/i/{publicKey}</code>
       </p>
       <p class='page-paragraph'>
         The public key is the 64-char-long string Discord gives on your application's page.
