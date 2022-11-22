@@ -1,15 +1,12 @@
 {
-  "name": "discord-active-dev",
-  "description": "Thingy to ~~farm~~get the Discord active developer badge",
-  "repository": "git@github.com:cyyynthia/discord-active-dev.git",
-  "author": "Cynthia <cynthia@cynthia.dev>",
+  "name": "discord-active-developer",
+  "description": "Very useful script to help you get your Active Developer Badge without much trouble.",
+  "repository": "git@github.com:DikaN1337/discord-active-developer.git",
+  "author": "DikaN",
   "license": "BSD-3-Clause",
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
     "server:dev": "ts-node --esm --project tsconfig.server.json src/server.ts",
     "server:build": "tsc --project tsconfig.server.json",
     "start": "node dist/server.js"
