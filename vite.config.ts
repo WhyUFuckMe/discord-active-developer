@@ -50,8 +50,7 @@ function finishLicense (): Plugin {
     generateBundle (_, bundle) {
       if (process.argv.includes('--ssr')) return
       const header = [
-        'Copyright (c) Cynthia Rey, All Rights Reserved.',
-        'Licensed under the BSD-3-Clause license. Contains third-party software licensed under different terms.',
+        'Copyright (c) DikaN, All Rights Reserved.',
         `For third-party software licenses included in this build, please see /${finalLicensePath}`
       ]
 
